@@ -1,0 +1,12 @@
+[package]
+edition = "2021"
+name = "ui_demo"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-std = {version = "1.12.0", features = ["unstable"]}
+iced = {version = "0.4.2", features = ["async-std"]}
+iced_futures = "0.4.1"
+iced_native = "0.5.1"
